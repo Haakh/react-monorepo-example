@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn workspace @resolvy/app run start",
+    "startWeb": "yarn workspace @resolvy/website run start",
+    "build": "yarn workspace @resolvy/app run build"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
